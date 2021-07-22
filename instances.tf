@@ -28,8 +28,3 @@ resource "aws_instance" "private-instance" {
     Name = "private-instance"
   }
 }
-
-#resource "aws_key_pair" "mykeypair" {
-#  key_name = "mykeypair"
-#  public_key = file(var.key_path)
-#}
