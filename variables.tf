@@ -3,13 +3,9 @@ variable region {
 }
 
 variable profile {
-    default="personal"
+    default="default"
 }
 
 variable instance-ami {
     default="ami-0088ab5bd1db84ada"
 }
-
-#variable key_path {
-#    default = "keys/mykeypair.pub"
-#}
